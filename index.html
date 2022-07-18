@@ -4,10 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>JSON and JSON OBJECT</title>
 </head>
 <body>
     <h2>JSON and JSON Object</h2>
-    <h3> Javascript</h3>
+    <!-- json anedi file format, file lo string vundachu, number vundachu-->
+   <!-- "string"
+ number : 23
+ boolean :true or false
+ ["a","b", 1, 34]=array
+ {"name:json"} =object
+ json lo multiple data types vuntai
+-->
+<!-- js object create chesthuna
+//obj address lo edaina petachu string, number, function or object
+let address= {
+
+    city:"some",
+    state:"pe",
+    10: "name",
+    //methods rayachu
+    //function() anonymous function
+    //js lo objects lo functions anevi vuntai danini methods antam
+    //object sambhadinchina fucntion ni method antaru
+    //getStateName key ki function assign chesthuna
+    getStateName:function(){
+        console.log(this.state)
+    }
+
+}
+// strings ni direct ga dot notation tho access chesukovachu
+but number ni access cheyali ante bracket notation []
+
+
+
+--json object key city and state must be string vundali values em ayina vundachu
+--manamu oka function tisukolemu like methods in obj
+{
+
+"city":"some",
+"state":"pe",
+"10": "name",
+this one will be error we should not use number in strings
+
+}
+
+"string thapa edi petina error chupisthundi"
+{
+[]:"city",
+"state":"somecity"
+}
+
+-->
+
+
+
+<script src="sample.js"></script>
 </body>
 </html>
